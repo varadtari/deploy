@@ -5,6 +5,7 @@ const ExcelSchema = new mongoose.Schema({
       type: Number,
      // required: true,
       unique: true,
+      dropDups: true,
   },
   DOJ: {
     type: String,
@@ -17,6 +18,7 @@ const ExcelSchema = new mongoose.Schema({
       type: Number,
       //required: true,
       unique:true,
+      dropDups: true,
   },
   "EMPLOYEE NAME": {
     type: String,
