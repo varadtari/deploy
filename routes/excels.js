@@ -51,7 +51,7 @@ router.get("/filter", async (req, res) => {
     let temp = {};
   const { query } = req;
   if (query.dept) {
-    temp.Dept = query.dept;
+    temp.Department = query.dept;
   }
   if (query.fromDate && query.toDate) {
     temp.DateJoin = {
